@@ -46,7 +46,14 @@ class Animal():
     def getHabitat(self):
         return self._habitat
     
+    def setHabitat(self, habitat):
+        self._habitat = habitat
 
+    def getGenero(self):
+        return self._genero
+    
+    def setGenero(self, genero):
+        self._genero = genero
 
     def getZona(self):
         return self._zona
